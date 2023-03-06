@@ -1,16 +1,23 @@
 #include <stdio.h>
 #include "consigne.h"
+#include "autotests.h"
 
-int main() {
-    printf("test");
+int main(){
+    /*remove(".verrouConsigne");
+    float a=19;
+    while(1){
+        sleep(1);
+        a = consigne(a);//on récupère la commande en fonction de l
+        printf("cmd : %f\n",a);
+    }*/
+    float b = testConsigne();
+    printf("%f", b);
 
-    float a = consigne(2.0);
-    printf("%f",a);
-    //printf("test");
+    //BLOC DE TEST
     /*float score1=0,score2=0,score3=0,score4=0,score5=0;
     score1 = testVisualisationT();
     score2 = testConsigne();
-    score3 = testVisualisationC();
+    score3 = testVisualisationC();Z
     score4 = testRegulationTOR();
     score5 = testRegulationPID();
     printf("----- Auto tests results: -----\n");
