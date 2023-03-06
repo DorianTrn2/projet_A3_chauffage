@@ -1,6 +1,12 @@
 #include <stdio.h>
+#include "consigne.h"
 
-int main2() {
+int main() {
+    printf("test");
+
+    float a = consigne(2.0);
+    printf("%f",a);
+    //printf("test");
     /*float score1=0,score2=0,score3=0,score4=0,score5=0;
     score1 = testVisualisationT();
     score2 = testConsigne();
