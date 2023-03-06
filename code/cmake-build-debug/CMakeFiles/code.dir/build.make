@@ -70,17 +70,122 @@ CMakeFiles/code.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/main.c -o CMakeFiles/code.dir/main.c.s
 
+CMakeFiles/code.dir/autotests.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/autotests.c.o: ../autotests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/code.dir/autotests.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/autotests.c.o   -c /home/isen/projet_A3/code/autotests.c
+
+CMakeFiles/code.dir/autotests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/autotests.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/autotests.c > CMakeFiles/code.dir/autotests.c.i
+
+CMakeFiles/code.dir/autotests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/autotests.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/autotests.c -o CMakeFiles/code.dir/autotests.c.s
+
+CMakeFiles/code.dir/consigne.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/consigne.c.o: ../consigne.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/code.dir/consigne.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/consigne.c.o   -c /home/isen/projet_A3/code/consigne.c
+
+CMakeFiles/code.dir/consigne.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/consigne.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/consigne.c > CMakeFiles/code.dir/consigne.c.i
+
+CMakeFiles/code.dir/consigne.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/consigne.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/consigne.c -o CMakeFiles/code.dir/consigne.c.s
+
+CMakeFiles/code.dir/regulation.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/regulation.c.o: ../regulation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/code.dir/regulation.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/regulation.c.o   -c /home/isen/projet_A3/code/regulation.c
+
+CMakeFiles/code.dir/regulation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/regulation.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/regulation.c > CMakeFiles/code.dir/regulation.c.i
+
+CMakeFiles/code.dir/regulation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/regulation.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/regulation.c -o CMakeFiles/code.dir/regulation.c.s
+
+CMakeFiles/code.dir/simulateur.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/simulateur.c.o: ../simulateur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/code.dir/simulateur.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/simulateur.c.o   -c /home/isen/projet_A3/code/simulateur.c
+
+CMakeFiles/code.dir/simulateur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/simulateur.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/simulateur.c > CMakeFiles/code.dir/simulateur.c.i
+
+CMakeFiles/code.dir/simulateur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/simulateur.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/simulateur.c -o CMakeFiles/code.dir/simulateur.c.s
+
+CMakeFiles/code.dir/test_simulateur.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/test_simulateur.c.o: ../test_simulateur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/code.dir/test_simulateur.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/test_simulateur.c.o   -c /home/isen/projet_A3/code/test_simulateur.c
+
+CMakeFiles/code.dir/test_simulateur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/test_simulateur.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/test_simulateur.c > CMakeFiles/code.dir/test_simulateur.c.i
+
+CMakeFiles/code.dir/test_simulateur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/test_simulateur.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/test_simulateur.c -o CMakeFiles/code.dir/test_simulateur.c.s
+
+CMakeFiles/code.dir/visualisationC.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/visualisationC.c.o: ../visualisationC.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/code.dir/visualisationC.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/visualisationC.c.o   -c /home/isen/projet_A3/code/visualisationC.c
+
+CMakeFiles/code.dir/visualisationC.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/visualisationC.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/visualisationC.c > CMakeFiles/code.dir/visualisationC.c.i
+
+CMakeFiles/code.dir/visualisationC.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/visualisationC.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/visualisationC.c -o CMakeFiles/code.dir/visualisationC.c.s
+
+CMakeFiles/code.dir/visualisationT.c.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/visualisationT.c.o: ../visualisationT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/code.dir/visualisationT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/code.dir/visualisationT.c.o   -c /home/isen/projet_A3/code/visualisationT.c
+
+CMakeFiles/code.dir/visualisationT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/code.dir/visualisationT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isen/projet_A3/code/visualisationT.c > CMakeFiles/code.dir/visualisationT.c.i
+
+CMakeFiles/code.dir/visualisationT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/code.dir/visualisationT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isen/projet_A3/code/visualisationT.c -o CMakeFiles/code.dir/visualisationT.c.s
+
 # Object files for target code
 code_OBJECTS = \
-"CMakeFiles/code.dir/main.c.o"
+"CMakeFiles/code.dir/main.c.o" \
+"CMakeFiles/code.dir/autotests.c.o" \
+"CMakeFiles/code.dir/consigne.c.o" \
+"CMakeFiles/code.dir/regulation.c.o" \
+"CMakeFiles/code.dir/simulateur.c.o" \
+"CMakeFiles/code.dir/test_simulateur.c.o" \
+"CMakeFiles/code.dir/visualisationC.c.o" \
+"CMakeFiles/code.dir/visualisationT.c.o"
 
 # External object files for target code
 code_EXTERNAL_OBJECTS =
 
 code: CMakeFiles/code.dir/main.c.o
+code: CMakeFiles/code.dir/autotests.c.o
+code: CMakeFiles/code.dir/consigne.c.o
+code: CMakeFiles/code.dir/regulation.c.o
+code: CMakeFiles/code.dir/simulateur.c.o
+code: CMakeFiles/code.dir/test_simulateur.c.o
+code: CMakeFiles/code.dir/visualisationC.c.o
+code: CMakeFiles/code.dir/visualisationT.c.o
 code: CMakeFiles/code.dir/build.make
 code: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isen/projet_A3/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

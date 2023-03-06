@@ -123,6 +123,60 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
+autotests.o: autotests.c.o
+
+.PHONY : autotests.o
+
+# target to build an object file
+autotests.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/autotests.c.o
+.PHONY : autotests.c.o
+
+autotests.i: autotests.c.i
+
+.PHONY : autotests.i
+
+# target to preprocess a source file
+autotests.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/autotests.c.i
+.PHONY : autotests.c.i
+
+autotests.s: autotests.c.s
+
+.PHONY : autotests.s
+
+# target to generate assembly for a file
+autotests.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/autotests.c.s
+.PHONY : autotests.c.s
+
+consigne.o: consigne.c.o
+
+.PHONY : consigne.o
+
+# target to build an object file
+consigne.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/consigne.c.o
+.PHONY : consigne.c.o
+
+consigne.i: consigne.c.i
+
+.PHONY : consigne.i
+
+# target to preprocess a source file
+consigne.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/consigne.c.i
+.PHONY : consigne.c.i
+
+consigne.s: consigne.c.s
+
+.PHONY : consigne.s
+
+# target to generate assembly for a file
+consigne.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/consigne.c.s
+.PHONY : consigne.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +204,141 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.c.s
 .PHONY : main.c.s
 
+regulation.o: regulation.c.o
+
+.PHONY : regulation.o
+
+# target to build an object file
+regulation.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/regulation.c.o
+.PHONY : regulation.c.o
+
+regulation.i: regulation.c.i
+
+.PHONY : regulation.i
+
+# target to preprocess a source file
+regulation.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/regulation.c.i
+.PHONY : regulation.c.i
+
+regulation.s: regulation.c.s
+
+.PHONY : regulation.s
+
+# target to generate assembly for a file
+regulation.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/regulation.c.s
+.PHONY : regulation.c.s
+
+simulateur.o: simulateur.c.o
+
+.PHONY : simulateur.o
+
+# target to build an object file
+simulateur.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/simulateur.c.o
+.PHONY : simulateur.c.o
+
+simulateur.i: simulateur.c.i
+
+.PHONY : simulateur.i
+
+# target to preprocess a source file
+simulateur.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/simulateur.c.i
+.PHONY : simulateur.c.i
+
+simulateur.s: simulateur.c.s
+
+.PHONY : simulateur.s
+
+# target to generate assembly for a file
+simulateur.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/simulateur.c.s
+.PHONY : simulateur.c.s
+
+test_simulateur.o: test_simulateur.c.o
+
+.PHONY : test_simulateur.o
+
+# target to build an object file
+test_simulateur.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/test_simulateur.c.o
+.PHONY : test_simulateur.c.o
+
+test_simulateur.i: test_simulateur.c.i
+
+.PHONY : test_simulateur.i
+
+# target to preprocess a source file
+test_simulateur.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/test_simulateur.c.i
+.PHONY : test_simulateur.c.i
+
+test_simulateur.s: test_simulateur.c.s
+
+.PHONY : test_simulateur.s
+
+# target to generate assembly for a file
+test_simulateur.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/test_simulateur.c.s
+.PHONY : test_simulateur.c.s
+
+visualisationC.o: visualisationC.c.o
+
+.PHONY : visualisationC.o
+
+# target to build an object file
+visualisationC.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/visualisationC.c.o
+.PHONY : visualisationC.c.o
+
+visualisationC.i: visualisationC.c.i
+
+.PHONY : visualisationC.i
+
+# target to preprocess a source file
+visualisationC.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/visualisationC.c.i
+.PHONY : visualisationC.c.i
+
+visualisationC.s: visualisationC.c.s
+
+.PHONY : visualisationC.s
+
+# target to generate assembly for a file
+visualisationC.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/visualisationC.c.s
+.PHONY : visualisationC.c.s
+
+visualisationT.o: visualisationT.c.o
+
+.PHONY : visualisationT.o
+
+# target to build an object file
+visualisationT.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/visualisationT.c.o
+.PHONY : visualisationT.c.o
+
+visualisationT.i: visualisationT.c.i
+
+.PHONY : visualisationT.i
+
+# target to preprocess a source file
+visualisationT.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/visualisationT.c.i
+.PHONY : visualisationT.c.i
+
+visualisationT.s: visualisationT.c.s
+
+.PHONY : visualisationT.s
+
+# target to generate assembly for a file
+visualisationT.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/visualisationT.c.s
+.PHONY : visualisationT.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... code"
 	@echo "... edit_cache"
+	@echo "... autotests.o"
+	@echo "... autotests.i"
+	@echo "... autotests.s"
+	@echo "... consigne.o"
+	@echo "... consigne.i"
+	@echo "... consigne.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... regulation.o"
+	@echo "... regulation.i"
+	@echo "... regulation.s"
+	@echo "... simulateur.o"
+	@echo "... simulateur.i"
+	@echo "... simulateur.s"
+	@echo "... test_simulateur.o"
+	@echo "... test_simulateur.i"
+	@echo "... test_simulateur.s"
+	@echo "... visualisationC.o"
+	@echo "... visualisationC.i"
+	@echo "... visualisationC.s"
+	@echo "... visualisationT.o"
+	@echo "... visualisationT.i"
+	@echo "... visualisationT.s"
 .PHONY : help
 
 

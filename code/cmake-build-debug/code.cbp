@@ -78,7 +78,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/isen/projet_A3/code/autotests.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/autotests.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/consigne.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/consigne.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/define.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/isen/projet_A3/code/main.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/regulation.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/regulation.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/simulateur.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/simulateur.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/test_simulateur.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/visualisationC.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/visualisationC.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/visualisationT.c">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/visualisationT.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/isen/projet_A3/code/CMakeLists.txt">
