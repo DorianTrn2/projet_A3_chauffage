@@ -1,35 +1,28 @@
 #include "consigne.h"
 #include <string.h>
-   float consigne(float thermostatPrec_f)
-   {
-    //printf("CONSIGNE");
-    char nb[20]= "";
-    FILE* f = NULL;
-    f = fopen("consigne.txt","r");
-    if (f != NULL)
-        {
-            fgets(nb, 20, f); // On lit maximum TAILLE_MAX caractères du fichier, on stocke le tout dans "chaine"
-            printf("%s", nb); // On affiche la chaîne
+#define MAX_TAILLE 5
 
-            fclose(f);
-        }
-        else{
-        printf("prout");}
-    /*int nb=0;
-    while(nb!=NULL){
-    int nb;
-    //fgetc(stdin);
+float consigne(float thermostatprec_f){
+   float value;
+   if(access( ".verrouConsigne", F_OK ) == -1 ){ // verifier si le verrou
+       fopen(".verrouConsigne","a+");
+       char str[MAX_TAILLE]= "";
+       char * endPtr;
+       FILE* f = NULL;
+       f = fopen("consigne.txt","r");
+       if (!feof(f)){
+           fgets(str, MAX_TAILLE, f); // on lit maximum taille_max caractères du fichier, on stocke le tout dans "nb"
+           value = strtof( str, &endPtr); // transformer la chaine de caractère en float
+           fclose(f);
+       }
 
-    nb=fgetc(f);
-    printf("%d",nb);
-    }*/
-    //printf("%d",nb);
-    fclose(f);
-
-
-
-
-    float thermostat_f=0;
-    return thermostat_f;
-   
+       if(value<5.0 || value>40.0){ // on regarde si la valeur est en dehors des bornes souhaitées
+           value =  thermostatprec_f; // si non, on renverra l'ancienne valeur
+       }
+       remove(".verrouConsigne");
    }
+   else{ // cas où le verrou est présent : on reprend l'ancienne valeur
+       value = thermostatprec_f;
+   }
+   return value;
+}
