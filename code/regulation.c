@@ -1,20 +1,20 @@
 #include "regulation.h"
-float regulation(int regul,float consigne,float T,float* oldT, float* oldI);
-
+float max(float a, float b);
 
 float regulationTest(int regul,float consigne,float* tabT, int nT){
     float reg;
-    float oldT = 98272390;
+    float oldT = tabT[0];
     float oldI = 0;
-    for(int i=0;i<nT;i++){
-        reg = regulation(regul, consigne, tabT[i], &oldT, &oldI);
+    float oldConsigne=consigne;
+    for(int i=1;i<nT;i++){
+        reg = regulation(regul, consigne, tabT[i], &oldT, &oldI,&oldConsigne);
     }
-    //printf("This is final reg : %f",reg);
+    printf("This is final reg : %f",reg);
     return reg;
 }
 
 
-float regulation(int regul,float consigne,float T,float* oldT, float* oldI){
+float regulation(int regul,float consigne,float T,float* oldT, float* oldI, float* oldConsigne){
     float cmd;
     if(regul == 1){ // TOR
         *oldI = 0;
@@ -24,26 +24,42 @@ float regulation(int regul,float consigne,float T,float* oldT, float* oldI){
         else{
             cmd=0;
         }
+        return cmd;
     }
     else{ // PID
-        float Kp=1,Ki=0.0967,Kd=0.1, dt=10;
+        if(T>=consigne){
+            return 0;
+        }
 
-        //P
+        if(*oldConsigne!=consigne){//check si la consigne a changé entre temps
+            *oldI = 0;
+        }
+        *oldConsigne=consigne;
+
+
+        float Kp=1,Ki=0.099998875,Kd=0.1, dt=10;
         float e = consigne - T;
+        //P
         float P = Kp*e;
 
         //I
-        float e2 = T - consigne;
-        e2 = (e2>0) ? e2 : -e2;
-        float I = *oldI + Ki*(e2*dt);
+        float I = (consigne - max(*oldT,T))*dt;
+        I+=fabs(T-*oldT)*dt/2;
+        I = *oldI + Ki*I;
 
         //D
-        float D = Kd * (T- *oldT )/dt;
+        float D = Kd * fabs(T - *oldT)/dt;
+        //printf("%f * (%f - %f)/%f\n",Kd,T,*oldT,dt);
 
         float PID = I+P+D;
+        //printf("P : %f, I : %f, D : %f\n",P,I,D);
         *oldT = T;
         *oldI = I;
+        if(PID>100){
+            PID=100;
+        }
         return PID;
     }
 }
 
+float max(float a, float b){return (a>b)?a:b;}

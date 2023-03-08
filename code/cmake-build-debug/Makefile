@@ -258,6 +258,33 @@ simulateur.c.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/simulateur.c.s
 .PHONY : simulateur.c.s
 
+test_sim.o: test_sim.c.o
+
+.PHONY : test_sim.o
+
+# target to build an object file
+test_sim.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/test_sim.c.o
+.PHONY : test_sim.c.o
+
+test_sim.i: test_sim.c.i
+
+.PHONY : test_sim.i
+
+# target to preprocess a source file
+test_sim.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/test_sim.c.i
+.PHONY : test_sim.c.i
+
+test_sim.s: test_sim.c.s
+
+.PHONY : test_sim.s
+
+# target to generate assembly for a file
+test_sim.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/test_sim.c.s
+.PHONY : test_sim.c.s
+
 test_simulateur.o: test_simulateur.c.o
 
 .PHONY : test_simulateur.o
@@ -363,6 +390,9 @@ help:
 	@echo "... simulateur.o"
 	@echo "... simulateur.i"
 	@echo "... simulateur.s"
+	@echo "... test_sim.o"
+	@echo "... test_sim.i"
+	@echo "... test_sim.s"
 	@echo "... test_simulateur.o"
 	@echo "... test_simulateur.i"
 	@echo "... test_simulateur.s"

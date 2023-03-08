@@ -90,6 +90,9 @@
 		<Unit filename="/home/isen/projet_A3/code/consigne.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/consigne.txt">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/isen/projet_A3/code/define.h">
 			<Option target="code"/>
 		</Unit>
@@ -106,6 +109,9 @@
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/isen/projet_A3/code/simulateur.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/isen/projet_A3/code/test_sim.c">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/isen/projet_A3/code/test_simulateur.c">

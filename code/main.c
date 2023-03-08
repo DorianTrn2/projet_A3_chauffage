@@ -2,8 +2,9 @@
 #include "consigne.h"
 #include "autotests.h"
 #include "regulation.h"
+#include "define.h"
 
-int main(){
+int main2(){
     /*remove(".verrouConsigne");
     float a=19;
     while(1){
@@ -14,9 +15,15 @@ int main(){
 
     /*float b = testConsigne();
     printf("%f", b);*/
+    //temp_t myTemp;
+    //visualisationT(myTemp);
+    //printf("%f\n",testVisualisationC());
+    //printf("%f\n",testVisualisationT());
+    //printf("%f\n",testVisualisationC());
+
 
     //printf("%f",testRegulationTOR());
-    printf("\n%f", testRegulationPID());
+    //printf("\n%f", testRegulationPID());
     /*int nT = 3;
     float tab[3] = {12,13,14};
     float test = regulationTest(1,10,&tab,nT);
@@ -35,10 +42,10 @@ int main(){
     return temperature.interieure;*/
 
     //BLOC DE TEST
-    /*float score1=0,score2=0,score3=0,score4=0,score5=0;
+    float score1=0,score2=0,score3=0,score4=0,score5=0;
     score1 = testVisualisationT();
     score2 = testConsigne();
-    score3 = testVisualisationC();Z
+    score3 = testVisualisationC();
     score4 = testRegulationTOR();
     score5 = testRegulationPID();
     printf("----- Auto tests results: -----\n");
@@ -47,5 +54,5 @@ int main(){
     printf("testVisualisationC\t:score=%g %%\n",score3*100);
     printf("testRegulationTOR\t:score=%g %%\n",score4*100);
     printf("testRegulationPID\t:score=%g %%\n",score5*100);
-    return EXIT_SUCCESS;*/
+    return EXIT_SUCCESS;
 }

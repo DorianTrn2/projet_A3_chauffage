@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "simulateur.h"
 
-int main2(){
+int main3(){
 
 	temp_t temperature;
 	temperature.exterieure = 14.0;

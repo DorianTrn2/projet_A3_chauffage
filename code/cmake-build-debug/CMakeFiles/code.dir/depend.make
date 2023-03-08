@@ -12,13 +12,27 @@ CMakeFiles/code.dir/consigne.c.o: ../consigne.c
 CMakeFiles/code.dir/consigne.c.o: ../consigne.h
 CMakeFiles/code.dir/consigne.c.o: ../define.h
 
+CMakeFiles/code.dir/main.c.o: ../autotests.h
+CMakeFiles/code.dir/main.c.o: ../consigne.h
+CMakeFiles/code.dir/main.c.o: ../define.h
 CMakeFiles/code.dir/main.c.o: ../main.c
+CMakeFiles/code.dir/main.c.o: ../regulation.h
 
 CMakeFiles/code.dir/regulation.c.o: ../define.h
 CMakeFiles/code.dir/regulation.c.o: ../regulation.c
 CMakeFiles/code.dir/regulation.c.o: ../regulation.h
 
 CMakeFiles/code.dir/simulateur.c.o: ../simulateur.c
+CMakeFiles/code.dir/simulateur.c.o: ../simulateur.h
+
+CMakeFiles/code.dir/test_sim.c.o: ../autotests.h
+CMakeFiles/code.dir/test_sim.c.o: ../consigne.h
+CMakeFiles/code.dir/test_sim.c.o: ../define.h
+CMakeFiles/code.dir/test_sim.c.o: ../regulation.h
+CMakeFiles/code.dir/test_sim.c.o: ../simulateur.h
+CMakeFiles/code.dir/test_sim.c.o: ../test_sim.c
+CMakeFiles/code.dir/test_sim.c.o: ../visualisationC.h
+CMakeFiles/code.dir/test_sim.c.o: ../visualisationT.h
 
 CMakeFiles/code.dir/test_simulateur.c.o: ../simulateur.h
 CMakeFiles/code.dir/test_simulateur.c.o: ../test_simulateur.c
