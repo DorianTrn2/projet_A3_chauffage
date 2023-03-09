@@ -9,12 +9,8 @@
 #include "visualisationC.h"
 
 int main(){
-    if(access( ".verrouConsigne", F_OK ) == 1 ){
-        remove(".verrouConsigne");
-    }
-    if(access( ".verrouData", F_OK ) == 1 ){
-        remove(".verrouData");
-    }
+    remove(".verrouConsigne");
+    remove(".verrouData");
     temp_t myTemp;
     myTemp.interieure = 15.0;
     myTemp.exterieure = 5;

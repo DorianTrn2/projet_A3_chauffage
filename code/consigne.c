@@ -14,6 +14,7 @@ float consigne(float thermostatprec_f){
            fgets(str, MAX_TAILLE, f); // on lit maximum taille_max caractères du fichier, on stocke le tout dans "nb"
            value = strtof( str, &endPtr); // transformer la chaine de caractère en float
            fclose(f);
+
        }
 
        if(value<5.0 || value>40.0){ // on regarde si la valeur est en dehors des bornes souhaitées

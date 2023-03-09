@@ -1,0 +1,1 @@
+gcc main.c autotests.c autotests.h consigne.c consigne.h define.h regulation.c regulation.h simulateur.c simulateur.h test_simulateur.c visualisationC.c visualisationC.h visualisationT.c visualisationT.h test_sim.c -o simu -Wall -lm
