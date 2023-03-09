@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/code.dir/main.c.o CMakeFiles/code.dir/autotests.c.o CMakeFiles/code.dir/consigne.c.o CMakeFiles/code.dir/regulation.c.o CMakeFiles/code.dir/simulateur.c.o CMakeFiles/code.dir/test_simulateur.c.o CMakeFiles/code.dir/visualisationC.c.o CMakeFiles/code.dir/visualisationT.c.o CMakeFiles/code.dir/test_sim.c.o  -o code 
